@@ -40,6 +40,7 @@ To perform Exploratory Data Analysis (EDA) on the IPL matches dataset and derive
   ## Program
   ## 1.Dataset Structure  ( find the uploaded dataset matches.csv)
   How many rows and columns are present in the dataset?
+  
   What does the first 5 rows of data look like?
   ```
 import numpy as np
@@ -60,6 +61,7 @@ df.shape
 ## Matches per Season
 
 How many matches were played in each IPL season?
+
 Can we visualize the trend of matches across seasons?
 
 ```
@@ -81,6 +83,7 @@ plt.show()
 ## Top Winning Teams
 
 Which teams have won the most matches overall?
+
 Can we plot the top 5 winning teams?
 
 ```
@@ -106,6 +109,7 @@ plt.show()
 ## Toss Decisions
 
 What do captains usually choose after winning the toss (bat or field)?
+
 Can we show this preference in a bar chart?
 
 ```
@@ -127,6 +131,7 @@ plt.show()
 ## Top Venues
 
 Which stadiums have hosted the most matches?
+
 Can we display the top 5 venues in a clear visual?
 
 ```
